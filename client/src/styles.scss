@@ -14,7 +14,7 @@ body,
   font-family: "Montserrat", sans-serif;
   text-align: center;
   display: flex;
-
+  align-items: flex-start;
   svg {
     height: 100%;
   }
@@ -96,4 +96,59 @@ form {
     padding: 3px 8px;
     margin-top: 16px;
   }
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.bubblesForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bubblesForm input {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  font-size: 14px;
+}
+
+.bubblesForm button {
+  width: 250px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+header > .container {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  margin-left: auto;
+  list-style-type: none;
+}
+
+.nav-list li {
+  margin-right: 40px;
+}
+
+.brand-name,
+.nav-list li .nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.brand-name {
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
